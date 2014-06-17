@@ -4,36 +4,52 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="">
+        <link rel="stylesheet"  href="src/css/foundation.min.css"/>
+        <link rel="stylesheet"  href="src/css/normalize.css"/>
         <link rel="stylesheet"  href="src/css/lightGallery.css"/>
         <link rel="stylesheet"  href="src/css/application.css"/>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script src="src/js/lightGallery.min.js"></script>
-        <script src="src/js/main.js"></script>
     </head>
     <body>
 
-        <ul id="auto-loop" class="gallery">
-            <li data-src="src/img/1.jpg"> 
-                <a href="#">
+   <div class="row">
+      <div class="large-12 large-centered columns">
+        <h1>Mel Linda</h1>
+      </div>
+    </div>     
+        
+        <div class="row">    
+        <div id="auto-loop" class="gallery">
+            <div class="large-3 columns" data-src="src/img/1.jpg"> 
+                <a class="th tilt" href="#">
                 <img src="src/img/1.jpg" />
                 </a> 
-            </li>
-            <li data-src="src/img/2.jpg" > 
-                <a href="#">
+            </div>
+            <div class="large-3 columns" data-src="src/img/2.jpg" > 
+                <a class="th" href="#">
                 <img src="src/img/2.jpg" />
                 </a> 
-            </li>
-            <li data-src="src/img/3.jpg"> 
-                <a href="#">
+            </div>
+            <div class="large-3 columns" data-src="src/img/3.jpg"> 
+                <a class="th" href="#">
                 <img src="src/img/3.jpg" />
                 </a> 
-            </li>
-            <li data-src="src/img/4.jpg" > 
-                <a href="#">
+            </div>
+            <div class="large-3 columns" data-src="src/img/4.jpg" > 
+                <a class="th" href="#">
                 <img src="src/img/4.jpg" />
                 </a> 
-            </li>
-        </ul>   
+            </div>
+        </div>   
+        </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="src/vendor/jquery.js"></script>
+        <script src="src/vendor/placeholder.js"></script>
+        <script src="src/vendor/modernizr.js"></script>
+        <script src="src/vendor/fastclick.js"></script>
+        <script src="src/vendor/jquery.cookie.js"></script>
+        <script src="src/js/lightGallery.min.js"></script>
+        <script src="src/js/foundation.min.js"></script>
+        <script src="src/js/main.js"></script>
         <script>
             prepareIndex();
         </script>
